@@ -1,0 +1,19 @@
+﻿<Page x:Class="iTeach.PageMain.PagePersonalAccount"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:iTeach.PageMain"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="Персональный Аккаунт">
+
+    <Grid>
+        <Button  Name="BtnBack" FontSize="15" Content="Назад" ></Button>
+        <Button FontSize="15" Name="BtnAddStudent" Margin="0,0,0,100" Content="Журнал" ></Button>
+        <Button FontSize="15" Name="BtnAddEvaluation" Margin="0,0,0,200" Content="Расписание" ></Button>
+        <Button FontSize="15" Content="Заметки"></Button>
+        <Button FontSize="15" Margin="0,100,0,0" Content="Учащиеся"></Button>
+        <Button FontSize="15" Margin="0,200,0,0" Content="Оплата"></Button>
+    </Grid>
+</Page>

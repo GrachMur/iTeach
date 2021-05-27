@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="3ffd01e0f2b74937b82da8a0475f18f9" Name="Diagram1">
+        <EntityTypeShape EntityType="ModeliTeach.User" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ModeliTeach.Date" Width="1.5" PointX="0.75" PointY="3.75" />
+        <EntityTypeShape EntityType="ModeliTeach.journal" Width="1.5" PointX="8.25" PointY="1.5" />
+        <EntityTypeShape EntityType="ModeliTeach.Note" Width="1.5" PointX="3.75" PointY="3.375" />
+        <EntityTypeShape EntityType="ModeliTeach.Pay" Width="1.5" PointX="3.75" PointY="5.5" />
+        <EntityTypeShape EntityType="ModeliTeach.Student" Width="1.5" PointX="6" PointY="1" />
+        <EntityTypeShape EntityType="ModeliTeach.Subject" Width="1.5" PointX="3.75" PointY="1.5" />
+        <AssociationConnector Association="ModeliTeach.FK_journal_Student" />
+        <AssociationConnector Association="ModeliTeach.FK_Student_Pay" />
+        <AssociationConnector Association="ModeliTeach.FK_Student_Subject" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
